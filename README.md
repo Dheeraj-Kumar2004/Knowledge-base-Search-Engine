@@ -56,7 +56,7 @@ Transform your static PDF documents into dynamic conversational experiences with
 - RESTful endpoints using FastAPI for file uploads, question queries, document management, with business logic for processing.
 
 ### Processing Layer
-- Uses PyPDF for text extraction, LangChain for chunking, and OpenAI APIs for embeddings and language modeling.
+- Uses PyPDF for text extraction, LangChain for chunking, and Gemini APIs for embeddings and language modeling.
 
 ### Storage Layer
 - Stores uploaded files locally, maintains in-memory vector stores for fast retrieval, and optionally persists metadata.
@@ -69,8 +69,8 @@ Transform your static PDF documents into dynamic conversational experiences with
 - **Framework:** FastAPI (Python 3.8+)
 - **PDF Processing:** PyPDF extracts text from PDFs.
 - **Text Chunking:** LangChain's RecursiveCharacterTextSplitter splits large texts into manageable chunks.
-- **Embeddings & Search:** OpenAI's `text-embedding-3-large` generates vectors;        In-memory vector store performs similarity search.
-- **Question Answering:** GPT-4o-mini (via OpenAI API) processes retrieved context and conversation history to generate responses.
+- **Embeddings & Search:** Utilizes embeddings (e.g., from Google's models) to generate vectors; In-memory vector store performs similarity search.
+- **Question Answering:** Google's Gemini model (via MyRAGAgent) processes retrieved context and conversation history to generate responses.
 
 ### Frontend
 - **Framework:** React.js (v18+) (Vite)
