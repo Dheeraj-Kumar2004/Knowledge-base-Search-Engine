@@ -96,7 +96,8 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 # Configure environment variables (.env)
-OPENAI_API_KEY=your_openai_api_key
+# NOTE: The system now uses the Gemini API.
+GEMINI_API_KEY=your_gemini_api_key
 
 # Run backend server
 uvicorn app.main:app --reload
@@ -123,6 +124,8 @@ npm run dev
 
 - **Frontend:** http://localhost:3000  
 - **Backend API Docs:** http://localhost:8000/docs
+- **Backend Status: http://localhost:8000/status
+- **Backend Health: http://localhost:8000/health
 
 ---
 
