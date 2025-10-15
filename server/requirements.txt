@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+langgraph
+pypdf
+python-dotenv
+openai
+google-cloud-speech
