@@ -1,4 +1,4 @@
-# 🚀 AI Planet - Interactive PDF Chat Application
+# 🚀 Knowledge Based Search Engine
 
 **[🌐 Live Demo → https://ai-planet-chat.onrender.com/](https://ai-planet-chat.onrender.com/)**
 
