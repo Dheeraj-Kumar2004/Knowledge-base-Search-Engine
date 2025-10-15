@@ -85,7 +85,7 @@ Transform your static PDF documents into dynamic conversational experiences with
 
 ```bash
 # Clone repo and navigate
-git clone https://github.com/AKSHAY-CHOWDARY/AI_PLANET_
+git clone https://github.com/Dheeraj-Kumar2004/Knowledge-base-Search-Engine
 cd AI_PLANET_/server
 
 # Create virtual environment
